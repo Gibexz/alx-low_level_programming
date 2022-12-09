@@ -12,7 +12,7 @@ int main(void)
 	for (a = '0'; a <= '8'; a++)
 	{
 		for (b = '1'; b <= '9'; b++)
-		{	
+		{
 			for (c = '2'; c <= '9'; c++)
 			{
 				if (a < b && b < c)
@@ -21,7 +21,7 @@ int main(void)
 					putchar(b);
 					putchar(c);
 					if ((a == '7' && b == '8') && (b == '8' && c == '9'))
-						break;
+					break;
 					putchar(',');
 					putchar(' ');
 				}
