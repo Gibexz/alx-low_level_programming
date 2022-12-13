@@ -20,8 +20,8 @@ void jack_bauer(void)
 			{
 				for (d = 0; d <= 9; d++)
 				{
-					if (a == 2 && b == 3 && c == 5 && d == 9)
-						continue;
+					if ((a == 2 && b == 3) && (c == 5 && d == 9))
+						break;
 					_putchar(a + '0');
 					_putchar(b + '0');
 					_putchar(':');
