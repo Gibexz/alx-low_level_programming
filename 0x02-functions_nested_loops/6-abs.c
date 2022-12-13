@@ -2,7 +2,7 @@
 
 /**
  * _abs - Number to return it Absoulute valur
- * @n: Int value to be checked
+ * @a: Int value to be checked
  * Return: Absolute value
  */
 int _abs(int a)
@@ -11,7 +11,7 @@ int _abs(int a)
 	{
 		a = -a;
 
-		return (a);	
+		return (a);
 	}
 	else
 	{
