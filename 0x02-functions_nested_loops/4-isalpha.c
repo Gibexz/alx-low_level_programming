@@ -5,7 +5,7 @@
  * @c: Int value to be checked (ASCII value of char.)
  * Return: 1 if uppercase, 0 if not.
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
