@@ -5,7 +5,7 @@
  * @Num: Int value to be checked
  * Return: Last digit of a number
  */
-int print_last_digit(int Num);
+int print_last_digit(int Num)
 {
 	int n = Num % 10;
 	
