@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - Checks if a character is Uppercase.
+ * _isalpha - Checks if a character is Uppercase.
  * @c: Int value to be checked (ASCII value of char.)
  * Return: 1 if uppercase, 0 if not.
  */
