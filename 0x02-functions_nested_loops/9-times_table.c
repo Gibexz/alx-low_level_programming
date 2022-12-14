@@ -7,9 +7,9 @@
  */
 void times_table(void)
 {
-	int x = 0; //factor
-	int y; // count
-	int z; // computed value
+	int x = 0; /* factor */
+	int y; /* count */
+	int z; /* 9_times values computed */
 
 	while (x <= 9)
 	{
@@ -38,7 +38,7 @@ void times_table(void)
 				_putchar(',');
 				_putchar(' ');
 			}
-			y++
+			y++;
 		}
 		_putchar('\n');
 		x++;
