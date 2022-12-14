@@ -18,7 +18,7 @@ int main(void)
 		{
 			printf("%lu\n", j);
 		}
-		else 
+		else
 		{
 			printf("%lu, ", j);
 		}
