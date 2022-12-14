@@ -4,7 +4,7 @@
 /**
  * print_to_98 - Print from a number n to 98
  * @n : reference number.
- * 
+ *
  * Return: Return value is int
  */
 void print_to_98(int n)
