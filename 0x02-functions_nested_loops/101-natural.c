@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - sums multiples of 3 and 5.
@@ -20,7 +21,7 @@ int main()
 		check5 = num % 5;
 
 		if (check3 == 0 || check5 == 0)
-			sum =+ num;
+			sum += num;
 	}
 	printf("%d\n", sum);
 	return (0);
