@@ -2,7 +2,7 @@
 
 /**
  * print_diagonal - function to print a line
- * @n- line length control value
+ * @n: line length control value
  * @i - hihi
  * Return: returns a diagonal line based on value of n
  */
