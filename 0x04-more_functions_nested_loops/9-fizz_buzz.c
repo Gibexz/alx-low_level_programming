@@ -4,7 +4,7 @@
  * main - code to print a FizzBuzz numbering
  *
  *
- * Return: returns a diagonal line based on value of n
+ * Return: Always 0 ()
  */
 int main(void)
 {
@@ -22,4 +22,5 @@ int main(void)
 			printf("%d ", i);
 	}
 	putchar('\n');
+	return (0);
 }
