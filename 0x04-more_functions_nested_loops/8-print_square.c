@@ -12,20 +12,20 @@ void print_square(int size)
 
 	row = 1;
 
-	if (size > 1)
+	if (size > row)
 	{
-		while (row < size)
+		while (row <= size)
 		{
 			col = 1;
 
-			while (col < size)
+			while (col <= size)
 			{
 				_putchar('#');
 				col++;
 			}
+			_putchar('\n');
 		row++;
 		}
-	_putchar('\n');
 	}
 	else
 		_putchar('\n');
