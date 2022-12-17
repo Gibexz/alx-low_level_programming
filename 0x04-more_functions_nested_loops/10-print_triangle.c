@@ -1,18 +1,35 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - code to print a FizzBuzz numbering
+ * print_triangle - Function to print a triangle
  *
  *
- * Return: returns a diagonal line based on value of n
+ * Return: Prints a triangle
  */
 void print_triangle(int size)
 {
-	int row, col;
-	
-	int row = 1;
+	int row, col, space;
+	row = 1;
 
-	if (size > 0)
-		while (row <= size)
-
+	if (size >= row)
+	{
+		for (row = 1; row <= size; row++) /* Rows */
+		{	
+			space = row;
+			while (space < size)
+			{
+				_putchar(' ');
+				space++;
+			}
+			col = 1;
+			while (col <= row)
+			{
+				_putchar('#');
+				col++;
+			}
+			_putchar('\n');
+		}
+	}
+	else
+		_putchar('\n');
 }
