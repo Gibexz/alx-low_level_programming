@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	long long int Num = 612852475143;
+	long int Num = 612852475143;
 	int count, largest_p_f;
 
 	for (count = 2; count <= Num; count++)
