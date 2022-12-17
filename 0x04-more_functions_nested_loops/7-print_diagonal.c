@@ -12,7 +12,7 @@ void print_diagonal(int n)
 
 	if (n > 0)
 	{
-		_putchar('/');
+		_putchar('\\');
 
 		while (i < n)
 		{
@@ -24,7 +24,7 @@ void print_diagonal(int n)
 				_putchar(' ');
 				count++;
 			}
-			_putchar('/');
+			_putchar('\\');
 			i++;
 		}
 		_putchar('\n');
