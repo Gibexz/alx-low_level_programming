@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - Function to print a triangle
- *
+ * @size: Parameter/value to be considered.
  *
  * Return: Prints a triangle
  */
