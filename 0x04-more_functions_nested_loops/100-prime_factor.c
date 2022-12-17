@@ -27,4 +27,5 @@ int main(void)
 	}
 	printf("%d", largest_p_f);
 	printf("\n");
+	return (0);
 }
