@@ -20,8 +20,8 @@ void puts_half(char *str)
 		len = len / 2 + 1;
 	while (*(str + len) != '\0')
 	{
-		Strg = (*(str + len))
+		_putchar(*(str + len));
 		len++;
-		puts(Strg);
 	}
+	_putchar('\n');
 }
