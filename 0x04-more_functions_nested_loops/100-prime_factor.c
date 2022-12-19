@@ -25,7 +25,7 @@ int main(void)
 			}
 		}
 	}
-	printf("%d", largest_p_f);
+	printf("%d", largest_p_f); /* Prints the last count which will be the largest prime factor */
 	printf("\n");
 	return (0);
 }
