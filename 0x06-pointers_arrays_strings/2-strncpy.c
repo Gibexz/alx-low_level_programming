@@ -18,7 +18,7 @@ char *_strncpy(char *dest, char *src, int n)
 		{
 			*(dest + i) = *(src + i);
 		}
-		if (i == n)
+		else
 			break;
 	}
 	*(dest + i) = '\0';
