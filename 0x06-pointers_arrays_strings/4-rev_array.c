@@ -9,10 +9,12 @@
  */
 void reverse_array(int *a, int n)
 {
-	int i, Newarray;
+	int i, storage;
 
-	for (i = n - 1; i < n; i--)
+	for (i = 0; i = n / 2; i++)
 	{
-		Newarray = *(a + i);
+		storage = a[i];
+		a[i] = a[n - 1 -i];
+		a[n - 1 - i] = storage;
 	}
 }
