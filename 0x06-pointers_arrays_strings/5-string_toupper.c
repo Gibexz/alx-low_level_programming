@@ -3,7 +3,7 @@
 /**
  * string_toupper - function to change all lowercase
  * to uppercase in a string
- * @str - string in question
+ * @str: string in question
  *
  *
  * Return: str
