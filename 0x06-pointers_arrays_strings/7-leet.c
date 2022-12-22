@@ -20,7 +20,7 @@ char *leet(char *str)
 		j = 0;
 		while (j < 5)
 		{
-			if (str[i] = a[j] || str[i] = A[j])
+			if (str[i] == a[j] || str[i] == A[j])
 				str[i] = num[j];
 			j++;
 		}
