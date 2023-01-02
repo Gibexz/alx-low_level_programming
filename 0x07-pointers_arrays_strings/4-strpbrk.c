@@ -20,11 +20,11 @@ char *_strpbrk(char *s, char *accept)
 		{
 			if (s[i] == accept[j])
 			{
-				return (&s[j]);
+				return (&s[j - 1]);
 			}
 			j++;
 		}
 		i++;
 	}
-	return('\0');
+	return ('\0');
 }
