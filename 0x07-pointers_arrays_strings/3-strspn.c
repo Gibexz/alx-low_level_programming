@@ -13,13 +13,13 @@ unsigned int _strspn(char *s, char *accept)
 	int i = 0, j; /* To be used for loop iterations */
 	int m = 0; /* Count for number of matches (i.e matching bytes) */
 
-	while (s[i])
+	while (accept[i])
 	{
 		j = 0;
 
-		while (accept[j] != 32)
+		while (s[j] != 32)
 		{
-			if (s[i] == accept[j])
+			if (accept[i] == s[j])
 			{
 				m++;
 			}
