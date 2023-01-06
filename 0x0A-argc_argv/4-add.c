@@ -12,7 +12,6 @@
  */
 int main(int argc, char *argv[])
 {
-	/**char alpha1[] = "abcdefghijklmnopqrstuvwxz-+=*&^%$#@!";**/
 	int i, sum = 0;
 
 	if (argc == 1)
@@ -24,8 +23,6 @@ int main(int argc, char *argv[])
 	{
 		for (i = 1; i < argc; i++)
 		{
-			
-			/*if (*argv[i] < 48 || *argv[i] > 57)*/
 			if (!isdigit(*argv[i]))
 			{
 				printf("Error\n");
