@@ -12,7 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int num, i, change = 0;
-	int coins[6] = {25, 10, 5, 2, 1}
+	int coins[6] = {25, 10, 5, 2, 1};
 
 	if (argc == 1 || argc > 2)
 	{
@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 		{
 			for (i = 0; i < 5; i++)
 			{
-				while (num >= coin[i])
+				while (num >= coins[i])
 				{
 					num -= coins[i];
 					change++;
