@@ -15,14 +15,14 @@ char *_strdup(char *str)
 	unsigned int j, i = 0;
 	char *copystr;
 
-	j = strlen(str);
+	j = strlen(str);/* lenght of the string "str" to be copied*/
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
 
-	copystr = malloc(j * sizeof(char));
+	copystr = malloc((j + 1) * sizeof(char));
 	if (copystr == NULL)
 	{
 		return (NULL);
@@ -33,5 +33,6 @@ char *_strdup(char *str)
 		copystr[i] = str[i];
 		i++;
 	}
+	copystr[j] = '\0';
 	return (copystr);
 }
