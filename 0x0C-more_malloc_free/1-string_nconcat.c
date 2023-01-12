@@ -20,7 +20,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	strcat = malloc(i * sizeof(char));
 	if (strcat == NULL)
 	{
-		free(strcat);
 		return (NULL);
 	}
 	for (m = 0; m < i; m++)
@@ -28,7 +27,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	strcat = realloc(strcat, n);
 	if (strcat == NULL)
 	{
-		free(strcat);
 		return (NULL);
 	}
 	for (p = i; p < k; p++)
