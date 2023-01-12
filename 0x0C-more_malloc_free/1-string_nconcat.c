@@ -14,6 +14,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *strcat;
 	unsigned int i, j, k, m, p, q = 0; /*for lenghts of strings and iterations*/
 
+	if (s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
 	i = strlen(s1);
 	j = strlen(s2);
 	k = i + n;
@@ -30,14 +34,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	}
 	for (p = i; p < k; p++)
-	{
 		while (q < n)
 		{
 			strcat[p] = s2[q];
 			q++;
 			p++;
 		}
-	}
 	if (n < (j + 1))
 	{
 		strcat[k + 1] = '\0';
