@@ -8,13 +8,14 @@
  * @owner: owner if the dog
  * @age: the dog's age
  *
- * Decription: 
+ * Decription: Complete data of a dog and details of it's owner.
  */
+
 struct dog
 {
 	char *name;
-	char *owner;
 	float age;
+	char *owner;
 };
 
 #endif /* DOG_H */
