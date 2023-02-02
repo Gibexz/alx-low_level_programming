@@ -9,11 +9,11 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int sum = 0;
-	unsigned int i, k, base = 1, l;
+	unsigned int sum = 0, base = 1;
+	int i, k, l;
 
 	k = strlen(b);
-	l = (strlen(b) - 1);
+	l = strlen(b) - 1;
 	i = 0;
 
 	if (b == NULL)
@@ -25,7 +25,7 @@ unsigned int binary_to_uint(const char *b)
 			return (0);
 	}
 
-	while (l)
+	while (l >= 0)
 	{
 		if (b[l] == '1')
 			sum = sum + base;
